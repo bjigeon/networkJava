@@ -1,4 +1,4 @@
-package network.thread;
+package network.src.d0415.thread;
 
 public class Thread1 extends Thread{
 	//작업 구현
