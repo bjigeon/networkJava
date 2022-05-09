@@ -23,7 +23,7 @@ public class Input_Thread extends Thread {
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
-			}		// Ŭ���̾�Ʈ �޽��� �Է� ����
+			}
 			BufferedReader br = new BufferedReader(new InputStreamReader(is));
 			
 			try {

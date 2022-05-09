@@ -1,4 +1,4 @@
-package kr.hs.dgsw.network.class23;
+package network.src.d0509.Server;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -10,8 +10,8 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Scanner;
 
-import kr.hs.dgsw.network.class23.teacher.Input_Thread;
-import kr.hs.dgsw.network.class23.teacher.Output_Thread;
+//import network.src.server.Input_Thread;
+//import network.src.Server.Output_Thread;
 
 public class ServerMain {
 

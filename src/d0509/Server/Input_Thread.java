@@ -1,4 +1,4 @@
-package kr.hs.dgsw.network.class23;
+package network.src.d0509.Server;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -23,7 +23,7 @@ public class Input_Thread extends Thread {
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
-			}		// Å¬¶óÀÌ¾ðÆ® ¸Þ½ÃÁö ÀÔ·Â ¹ÞÀ½
+			}		// Å¬ï¿½ï¿½ï¿½Ì¾ï¿½Æ® ï¿½Þ½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ ï¿½ï¿½ï¿½ï¿½
 			BufferedReader br = new BufferedReader(new InputStreamReader(is));
 			
 			try {

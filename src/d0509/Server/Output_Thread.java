@@ -1,4 +1,4 @@
-package kr.hs.dgsw.network.class23;
+package network.src.d0509.Server;
 
 import java.io.IOException;
 import java.io.OutputStream;

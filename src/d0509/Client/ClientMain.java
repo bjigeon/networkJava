@@ -21,6 +21,17 @@ public class ClientMain {
 			Thread ot = new Output_Thread(sc);
 			ot.start();
 			
+			Thread it = new Input_Thread(sc);
+			it.start();
+			
+			try {
+				ot.join();
+				it.join();
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
 			
 				
 		} catch (UnknownHostException e) {
