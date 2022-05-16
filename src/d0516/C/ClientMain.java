@@ -52,8 +52,8 @@ public class ClientMain {
                 }
             }
 
-            Thread ot = new Output_Message(sc);
-            Thread it = new Input_Message(sc);
+            Thread ot = new outputThread(sc);
+            Thread it = new inputThread(sc);
 
             ot.start();
             it.start();
