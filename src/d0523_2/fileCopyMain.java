@@ -8,7 +8,7 @@ public class fileCopyMain {
         File f1 = new File("/Users/bjigeon/Desktop/IMG.jpeg");
         FileInputStream fis = new FileInputStream(f1);
 
-        FileOutputStream fos = new FileOutputStream("/Users/bjigeon/Desktop/a.jpeg");
+        FileOutputStream fos = new FileOutputStream("/Users/bjigeon/Desktop/b.jpeg");
 
         byte[] bytes = new byte[1024];
 
