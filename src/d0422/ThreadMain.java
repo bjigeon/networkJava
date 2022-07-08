@@ -28,22 +28,22 @@ public class ThreadMain {
 //        thread5.start();
 
         //////////////////
-        Thread1 m1 = new Thread1();
-
-        Thread[] t1 = new Thread[5];
-
-        for (int i=1; i<=5; i++) {
-            t1[i] = new Thread((Runnable) m1, "T"+i);
-
-            t1[i].start();
-        }
-
-        for (int i=0; i<500; i++) {
-
-        }
-        System.out.println("Main Thread End");
-    }
-
-    private static class Thread1 {
+//        Thread1 m1 = new Thread1();
+//
+//        Thread[] t1 = new Thread[5];
+//
+//        for (int i=1; i<=5; i++) {
+//            t1[i] = new Thread((Runnable) m1, "T"+i);
+//
+//            t1[i].start();
+//        }
+//
+//        for (int i=0; i<500; i++) {
+//
+//        }
+//        System.out.println("Main Thread End");
+//    }
+//
+//    private static class Thread1 {
     }
 }
